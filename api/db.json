@@ -1,0 +1,94 @@
+{
+  "groceries": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Bananas",
+      "quantity": 6,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Milk",
+      "quantity": 0,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "Bread",
+      "quantity": 2,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "name": "Eggs",
+      "quantity": 12,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "name": "Chicken Breast",
+      "quantity": 2,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "name": "Tomatoes",
+      "quantity": 4,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "name": "Onions",
+      "quantity": 3,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "name": "Rice",
+      "quantity": 1,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "name": "Apples",
+      "quantity": 8,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440010",
+      "name": "Carrots",
+      "quantity": 5,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440011",
+      "name": "Cheese",
+      "quantity": 1,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440012",
+      "name": "Yogurt",
+      "quantity": 4,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440013",
+      "name": "Pasta",
+      "quantity": 2,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440014",
+      "name": "Bell Peppers",
+      "quantity": 3,
+      "status": "PENDING"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440015",
+      "name": "Olive Oil",
+      "quantity": 1,
+      "status": "PENDING"
+    }
+  ]
+}
