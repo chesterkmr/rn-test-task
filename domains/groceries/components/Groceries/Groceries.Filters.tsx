@@ -55,7 +55,6 @@ export const GroceriesFilters = ({
 
   const handleApplyFilter = useCallback(() => {
     onFilterChange(internalFilters);
-    setInternalFilters(defaultFilters);
     setIsDrawerOpen(false);
   }, [onFilterChange, internalFilters]);
 
@@ -102,7 +101,7 @@ export const GroceriesFilters = ({
                   <InputField
                     value={internalFilters.query}
                     onChangeText={(query) =>
-                      onFilterChange({ ...internalFilters, query })
+                      setInternalFilters((prev) => ({ ...prev, query }))
                     }
                     placeholder="Type grocery name..."
                     className="text-typography-800 text-base"
