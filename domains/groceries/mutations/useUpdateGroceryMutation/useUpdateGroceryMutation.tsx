@@ -2,14 +2,13 @@ import { useMutation } from "@tanstack/react-query";
 import {
   DEFAULT_GET_GROCERIES_QUERY_PARAMS,
   TGetGroceriesQueryParams,
-  TGetGroceriesResponse,
-  TUpdateGrocery,
   updateGrocery,
 } from "../../fetchers";
 import { queryClient } from "@/utils/query-client/query-client";
 import { groceriesQueryKeys } from "../..";
 import { useToast } from "@/components/ui/toast";
 import { CommonToast } from "@/components/toasts/CommonToast";
+import { TGetGroceriesResponse, TUpdateGrocery } from "../../schemas";
 
 interface UseUpdateGroceryMutationProps {
   queryParams?: TGetGroceriesQueryParams;

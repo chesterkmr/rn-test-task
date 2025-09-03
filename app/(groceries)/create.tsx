@@ -8,14 +8,14 @@ import {
   FormControlError,
   FormControlErrorText,
 } from "@/components/ui/form-control";
-import { CreateGrocerySchema } from "@/domains/groceries/fetchers";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm, Controller } from "react-hook-form";
 import { useCreateGroceryMutation } from "@/domains/groceries/mutations/useCreateGroceryMutation/useCreateGroceryMutation";
 import { router } from "expo-router";
 import z from "zod";
 import { randomUUID } from "expo-crypto";
-import { GroceryStatusEnum } from "@/domains/groceries/schemas";
+import { CreateGrocerySchema } from "@/domains/groceries/schemas";
+import { GroceryStatusEnum } from "@/domains/groceries/enums";
 
 const FormSchema = CreateGrocerySchema.omit({
   id: true,

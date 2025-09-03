@@ -21,7 +21,6 @@ import {
   SelectItem,
 } from "@/components/ui/select";
 import { ChevronDownIcon } from "@/components/ui/icon";
-import { CreateGrocerySchema } from "@/domains/groceries/fetchers";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm, Controller } from "react-hook-form";
 import z from "zod";
@@ -30,10 +29,11 @@ import { useGroceryQuery } from "@/domains/groceries/queries/useGroceryQuery/use
 import { Text } from "@/components/ui/text";
 import { ActivityIndicator } from "react-native";
 import { useEffect } from "react";
-import { GroceryStatusEnum } from "@/domains/groceries/schemas";
 import { useUpdateGroceryMutation } from "@/domains/groceries/mutations/useUpdateGroceryMutation/useUpdateGroceryMutation";
 import { queryClient } from "@/utils/query-client/query-client";
 import { groceriesQueryKeys } from "@/domains/groceries";
+import { CreateGrocerySchema } from "@/domains/groceries/schemas";
+import { GroceryStatusEnum } from "@/domains/groceries/enums";
 
 const FormSchema = CreateGrocerySchema.omit({
   id: true,

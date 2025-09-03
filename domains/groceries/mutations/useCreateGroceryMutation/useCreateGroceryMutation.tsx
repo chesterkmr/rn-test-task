@@ -1,13 +1,10 @@
 import { useMutation } from "@tanstack/react-query";
-import {
-  createGrocery,
-  TCreateGrocery,
-  TGetGroceriesQueryParams,
-} from "../../fetchers";
+import { createGrocery, TGetGroceriesQueryParams } from "../../fetchers";
 import { CommonToast } from "@/components/toasts/CommonToast";
 import { useToast } from "@/components/ui/toast";
 import { queryClient } from "@/utils/query-client/query-client";
 import { groceriesQueryKeys } from "../..";
+import { TCreateGrocery } from "../../schemas";
 
 interface UseCreateGroceryMutationProps {
   onSuccess?: () => void;

@@ -2,7 +2,7 @@ import { Text } from "@/components/Themed";
 import { Box } from "@/components/ui/box";
 import { useGroceries } from "./hooks/useGroceries";
 import { useMemo } from "react";
-import { GroceryStatusEnum } from "../../schemas";
+import { GroceryStatusEnum } from "../../enums";
 
 interface GroceriesSummaryProps {
   className?: string;

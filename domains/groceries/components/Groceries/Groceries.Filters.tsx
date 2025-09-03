@@ -24,9 +24,10 @@ import {
 } from "@/components/ui/drawer";
 import { ListFilterIcon, ChevronDownIcon } from "lucide-react-native";
 import { TGetGroceriesQueryParams } from "../../fetchers";
-import { GroceryStatusEnum, TGroceryItemStatus } from "../../schemas";
+import { TGroceryItemStatus } from "../../schemas";
 import { Button, ButtonText } from "@/components/ui/button";
 import { useGroceries } from "./hooks/useGroceries";
+import { GroceryStatusEnum } from "../../enums";
 
 const statusOptions = [
   { value: "ALL", label: "All" },

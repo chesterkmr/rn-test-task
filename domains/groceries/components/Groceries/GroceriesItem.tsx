@@ -7,10 +7,10 @@ import {
   CheckboxIcon,
 } from "@/components/ui/checkbox";
 import { CheckIcon, Trash2Icon } from "lucide-react-native";
-import { GroceryStatusEnum, TGroceryItemStatus } from "../../schemas";
+import { TGroceryItemStatus, TUpdateGrocery } from "../../schemas";
 import { Alert, Pressable } from "react-native";
 import { QuantityInput } from "@/components/ui/quantity-input";
-import { TUpdateGrocery } from "../../fetchers";
+import { GroceryStatusEnum } from "../../enums";
 
 interface GroceriesItemProps {
   id: string;

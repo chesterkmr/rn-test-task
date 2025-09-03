@@ -1,9 +1,7 @@
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { useCallback, useMemo } from "react";
-import {
-  DEFAULT_GET_GROCERIES_QUERY_PARAMS,
-  GetGroceriesQueryParamsSchema,
-} from "../../fetchers";
+import { DEFAULT_GET_GROCERIES_QUERY_PARAMS } from "../../fetchers";
+import { GetGroceriesQueryParamsSchema } from "../../schemas";
 
 interface GroceriesFilters {
   query?: string;
